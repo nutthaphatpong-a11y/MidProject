@@ -8,7 +8,7 @@ public class LevelManager : MonoBehaviour
 
     public int rows = 5;
     public int cols = 8;
-    public float spacing = 1.2f;
+    public float spacing = 10f;
 
     public int brickCount;
 
