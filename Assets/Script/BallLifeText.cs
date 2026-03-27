@@ -12,6 +12,7 @@ public class BallLifeText : MonoBehaviour
 
     private void Awake()
     {
+        lifeText.text = "Life: " + health;
         instance = this;
     }
 
