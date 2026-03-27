@@ -512,9 +512,8 @@ MonoBehaviour:
   brickPrefabs:
   - {fileID: 6366775627986969110, guid: 992836769382f6544af666cd005b5df3, type: 3}
   parent: {fileID: 204146944}
-  rows: 5
-  cols: 8
-  spacing: 1.2
+  spacing: 1.5
+  startZ: 0
   brickCount: 0
 --- !u!4 &185928490
 Transform:
@@ -556,7 +555,7 @@ Transform:
   m_GameObject: {fileID: 204146943}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 7.75}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2413,7 +2412,7 @@ Transform:
   m_GameObject: {fileID: 1540459310}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.8, y: 0, z: 5.01}
+  m_LocalPosition: {x: 1.8, y: 0, z: 15.27}
   m_LocalScale: {x: 1, y: 1, z: 47.10097}
   m_ConstrainProportionsScale: 0
   m_Children: []
