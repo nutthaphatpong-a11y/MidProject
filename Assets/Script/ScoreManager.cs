@@ -21,7 +21,7 @@ public class ScoreManager : MonoBehaviour
     {
         score += amount;
         scoreText.text = "Score: " + score;
-	if (score >= 100)
+	if (score >= 500)
         {
             SceneManager.LoadScene(2);
         }
